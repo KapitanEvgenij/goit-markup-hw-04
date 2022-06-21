@@ -118,14 +118,23 @@ a.active {
     color: var(--header-nav-color);
     display: inline-block;
     padding: 32px 0;
+    
         
 }
 
 .header-tel,
 .header-email {
     color: var(--header-contacts-color);
+    display: flex;
+    justify-content: center;
+    
 }
 
+.heder-mail-icon,
+.heder-tel-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 
 .header-link:hover,
@@ -136,6 +145,7 @@ a.active {
 .header-email:focus {
     color: var(--accent-color);
 }
+
 
 .header-list, .header-contacts-list {
     display: flex;
@@ -151,10 +161,7 @@ a.active {
     margin-left: auto;
 }
 
-.icon-mail {
-    width: 20px;
-    height: 20px;
-}
+
 
 /*--------- HERO STYLES --------- */
 .hero {
@@ -332,7 +339,48 @@ a.active {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
+
+.masters-soc-list {
+    display: flex;
+    justify-content: center;
+}
+
+.masters-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+}
+
+.masters-soc-item:first-child {
+    margin-left: 0;
+}
+
+
+.master-soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    color: #AFB1B8;
+   
+}
+
+.masters-soc-icon {
+    fill: currentColor;
+}
+
+.master-soc-link:hover,
+.master-soc-link:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+
+
 
 /*--------- Footer STYLES --------- */
 .footer {
