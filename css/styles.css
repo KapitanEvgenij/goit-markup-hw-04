@@ -177,6 +177,7 @@ a.active {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        padding: 200px 0;
 }
 
 /*--- 
@@ -197,7 +198,7 @@ a.active {
     
 .hero .container{
     text-align: center;
-    padding: 200px 0;
+    
     
 }
 
@@ -458,6 +459,7 @@ a.active {
 .clients-link:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
+    outline: transparent;
 }
 
 .clients-icon {
@@ -520,14 +522,11 @@ a.active {
 
 .footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-address-wrap {
     margin-right: 70px;
-}
-.footer-soc {
-    margin-top: 12px;
-    
 }
 
 .footer-soc-title {
